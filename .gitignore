@@ -25,6 +25,8 @@ x64/
 x86/
 _binx64/
 _binx86/
+_Debugx64/
+_Debugx86/
 _Releasex64/
 _Releasex86/
 [Ww][Ii][Nn]32/
