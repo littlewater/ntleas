@@ -191,7 +191,10 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Contribs\liblocale\liblocale.vcxproj">
-      <Project>{6656ad20-c9cf-45ce-9a91-18267c7a6d7b}</Project>
+      <Project>{e6507059-88e2-4295-9d1f-7196edd562a1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ntprofile\ntprofile.vcxproj">
+      <Project>{848522ae-5869-4fd4-91b0-6deef7a1ad0d}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

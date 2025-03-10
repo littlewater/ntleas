@@ -194,11 +194,17 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Contribs\liblocale\liblocale.vcxproj">
-      <Project>{6656ad20-c9cf-45ce-9a91-18267c7a6d7b}</Project>
+      <Project>{e6507059-88e2-4295-9d1f-7196edd562a1}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Libraries\libwinshell\libwinshell.vcxproj">
-      <Project>{0d861fb3-cbb9-4113-94a2-cc1af422c066}</Project>
+    <ProjectReference Include="..\..\..\Libraries\Libwinshell\Libwinshell.vcxproj">
+      <Project>{b7512432-b0d2-4fb5-a0d1-3532bdd25bf2}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\ntprofile\ntprofile.vcxproj">
+      <Project>{848522ae-5869-4fd4-91b0-6deef7a1ad0d}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ntleasWin.cfg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

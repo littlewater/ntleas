@@ -183,20 +183,6 @@
     <ClCompile Include="ntleax.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Contribs\minidump\minidump.vcxproj">
-      <Project>{c0977856-4dfc-4c97-9372-7f8553a64f0a}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\ntdebug\ntdebug.vcxproj">
-      <Project>{00823b23-7bea-49a3-9d6e-9a75c6f18cc4}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\nthook\nthook.vcxproj">
-      <Project>{6e6744cc-0be1-41b9-a4fd-18d75d7255c7}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\ntproc\ntproc.vcxproj">
-      <Project>{6a45a63b-58c2-4f67-858b-33fb486a8277}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="ntleai.rc" />
   </ItemGroup>
   <ItemGroup>
@@ -204,6 +190,20 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Contribs\minidump\minidump.vcxproj">
+      <Project>{b28b8a2e-33e3-47df-9ec8-cd85e8560a57}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ntdebug\ntdebug.vcxproj">
+      <Project>{bfe68e0d-ee39-435d-89c0-c971f2580a2b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\nthook\nthook.vcxproj">
+      <Project>{cad15306-79e7-470e-9ec9-90a9965a2bd2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ntproc\ntproc.vcxproj">
+      <Project>{650b0c59-7274-400c-9269-097e58072589}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

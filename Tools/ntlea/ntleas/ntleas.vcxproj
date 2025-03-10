@@ -188,6 +188,9 @@
     <ProjectReference Include="..\ntdebug\ntdebug.vcxproj">
       <Project>{00823b23-7bea-49a3-9d6e-9a75c6f18cc4}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\ntproc\ntproc.vcxproj">
+      <Project>{650b0c59-7274-400c-9269-097e58072589}</Project>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ntleas.rc" />
