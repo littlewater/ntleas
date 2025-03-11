@@ -10,6 +10,7 @@ int main(void) {
 	fprintf(stderr, "enter <ESCAPE> for exit or <RETURN> for trigger.\n");
 
 	while (ntleasig/*true?*/) {
+		// poll the keyboard event 
 		if (_kbhit()) {
 			int ch = _getch();
 			switch (ch) {
@@ -26,6 +27,7 @@ int main(void) {
 				break;
 			}
 		}
+		// just wait a lil time 
 		Sleep(50);
 	}
 	// exit ... 
